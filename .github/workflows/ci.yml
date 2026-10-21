@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   ci:
-    name: CI (Node ${{ matrix.node-version }}),Lint, Typecheck, Build, Test
+    name: Lint, Typecheck, Build, Test (Node ${{ matrix.node-version }})
     runs-on: ubuntu-latest
     timeout-minutes: 15
     strategy:
